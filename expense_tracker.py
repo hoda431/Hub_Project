@@ -4,6 +4,7 @@ A simple command-line expense tracker that allows users to:
 - Add new expenses (amount, category, description)
 - View all recorded expenses
 - Calculate total expenses
+- Search expenses by category
 - Persist data to a JSON file
 - Load data automatically on startup
 """
@@ -177,4 +178,3 @@ def main():
 # --- Run the Application ---
 if __name__ == "__main__":
     main()
-
